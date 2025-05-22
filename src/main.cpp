@@ -2,8 +2,8 @@
 
 // Test only one feature at a time to save space
 // Uncomment only ONE of these defines:
-//#define TEST_WIFI_ONLY
-#define TEST_BLE_ONLY
+#define TEST_WIFI_ONLY
+//#define TEST_BLE_ONLY
 
 #ifdef TEST_WIFI_ONLY
   #include <WiFi.h>
